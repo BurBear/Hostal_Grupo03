@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MantenedordeHabitaciones .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedordeHabitaciones .Designer.cs">
+      <DependentUpon>MantenedordeHabitaciones .cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MantenedordeHabitaciones .resx">
+      <DependentUpon>MantenedordeHabitaciones .cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MantenedorFormadePago.resx">
       <DependentUpon>MantenedorFormadePago.cs</DependentUpon>
     </EmbeddedResource>
