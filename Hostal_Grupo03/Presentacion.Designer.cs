@@ -35,9 +35,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(213, 193);
+            this.pictureBox1.Image = global::Hostal_Grupo03.Properties.Resources.HostalLasMercedes;
+            this.pictureBox1.Location = new System.Drawing.Point(251, 232);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(270, 206);
+            this.pictureBox1.Size = new System.Drawing.Size(210, 206);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
